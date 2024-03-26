@@ -24,7 +24,6 @@
 //   )
 // }
 // export default App;
-<<<<<<< HEAD
 
 // import React, { useEffect } from 'react'
 // import { useState } from 'react'
@@ -840,19 +839,18 @@
 
 
 //PROPS
-import React from "react";
-import CompA from './CompA';
-const App = () => {
-    let name ='anushree'
-        return (
-            <>
-            <CompA name={name}/>
-            </>
-        )
-}
+// import React from "react";
+// import CompA from './CompA';
+// const App = () => {
+//     let name ='anushree'
+//         return (
+//             <>
+//             <CompA name={name}/>
+//             </>
+//         )
+// }
 
-export default App;
-=======
+// export default App;
 
 // import React, { useEffect } from 'react'
 // import { useState } from 'react'
@@ -1665,4 +1663,19 @@ export default App;
 
 // export {fname,lname};
 // export default App;
->>>>>>> 5fe5f1996c41762a044648557f131812db6ef6cf
+
+
+// React Events
+import React from "react";
+// import CompA from './CompA'
+const App = ()=>{
+    const shoot=()=>{
+        alert('Hi, I AM A DEVELOPER')
+    }
+    return (
+        <>
+        <button onClick={shoot}>Click me</button>
+        </>
+    )
+}
+export default App;

@@ -23,16 +23,16 @@
 // export default CompA;
 
 
+// PROPS
+// import React from "react";
 
-import React from "react";
+// const CompA=({name})=>{
+//     return(
+//         <>
+//         <h1>Hi my name is {name}</h1>
+//         </>
+//     )
 
-const CompA=({name})=>{
-    return(
-        <>
-        <h1>Hi my name is {name}</h1>
-        </>
-    )
-
-}
-export default CompA;
+// }
 // export default CompA;
+
