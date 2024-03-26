@@ -35,3 +35,4 @@ const CompA=({name})=>{
 
 }
 export default CompA;
+// export default CompA;
